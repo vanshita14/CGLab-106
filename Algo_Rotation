@@ -1,0 +1,12 @@
+Algorithm for 2D Rotation of an object.
+Consider a point object O has to be rotated from one angle to another in a 2D plane.
+ 
+Let-
+•	Initial coordinates of the object O = (Xold, Yold)
+•	Initial angle of the object O with respect to origin = Φ
+•	Rotation angle = θ
+•	New coordinates of the object O after rotation = (Xnew, Ynew)
+
+This rotation is achieved by using the following rotation equations-
+•	Xnew = Xold x cosθ – Yold x sinθ
+•	Ynew = Xold x sinθ + Yold x cosθ
